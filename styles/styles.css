@@ -146,3 +146,52 @@ ul li a {
 .what-I-do-card h3 {
   margin: 20px 0;
 }
+
+/* Amazing Work section styles */
+
+.amazing-work 
+{
+  text-align: center;
+}
+
+.amazing-work h2
+{
+  margin-bottom: 50px;
+}
+
+.gallery 
+{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 24px;
+  grid-template-areas:
+  "one three five"
+  "one three six"
+  "two three six"
+  "two four six";
+}
+
+.gallery-card-1
+{
+  grid-area: one;
+}
+.gallery-card-2
+{
+  grid-area: two;
+}
+.gallery-card-3
+{
+  grid-area: three;
+}
+.gallery-card-4
+{
+  grid-area: four;
+}
+.gallery-card-5
+{
+  grid-area: five;
+}
+.gallery-card-6
+{
+  grid-area: six;
+}
